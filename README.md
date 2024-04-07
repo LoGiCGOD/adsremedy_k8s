@@ -12,7 +12,7 @@ Run the command-
 2) kubectl get svc (to get the port no. Since the service type is Nodeport.)
 
 Once deployed stress the api using hey. Use the command-
-1) hey -n 3000 -c 100 http://192.168.49.2:31100 (change the ip and port base on your machine)
+1) hey -n 3000 -c 100 http://192.168.49.2:31100 (change the ip and port based on your machine)
 2) kubectl get pods (to check if pods are incremented)
 3) kubectl get hpa (to monitor the targets)
 
